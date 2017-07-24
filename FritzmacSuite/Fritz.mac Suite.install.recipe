@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Installs the latest version of Fritz.mac Suite.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4institutes.install.Fritz.macSuite</string>
+	<string>com.github.autopkg4instituts.install.Fritz.macSuite</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg4institutes.download.Fritz.macSuite</string>
+	<string>com.github.autopkg4instituts.download.Fritz.macSuite</string>
 	<key>Process</key>
 	<array>
 		<dict>
