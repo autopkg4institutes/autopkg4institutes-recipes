@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Installs the latest version of mucommander.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4institutes.install.mucommander</string>
+	<string>com.github.autopkg4instituts.install.mucommander</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg4institutes.download.mucommander</string>
+	<string>com.github.autopkg4instituts.download.mucommander</string>
 	<key>Process</key>
 	<array>
 		<dict>
