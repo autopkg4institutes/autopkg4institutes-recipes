@@ -1,1 +1,1 @@
-# A bunch of AutoPkg recipes fromk autopkg4instituts! 
+# A bunch of AutoPkg recipes from autopkg4instituts! 
