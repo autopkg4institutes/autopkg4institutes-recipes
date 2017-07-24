@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v1.0.5 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of Spark.</string>
+	<key>Identifier</key>
+	<string>com.github.autopkg4instituts.download.Spark</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://github-production-release-asset-2e65be.s3.amazonaws.com/14648981/c6c6c032-e624-11e6-93a7-e8c73f579d06?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20170724%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20170724T104601Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=db92f87a799665c52a7f1b8d737c15e201644f7ef11093ee7ffea635ddd8d4e6&amp;X-Amz-SignedHeaders=host&amp;actor_id=0&amp;response-content-disposition=attachment%3B%20filename%3Dspark_2_8_3.dmg&amp;response-content-type=application%2Foctet-stream</string>
+		<key>NAME</key>
+		<string>Spark</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>%DOWNLOAD_URL%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+	</array>
+</dict>
+</plist>
