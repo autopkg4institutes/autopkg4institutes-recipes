@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v1.0.5 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of Universal Media Server.</string>
+	<key>Identifier</key>
+	<string>com.github.autopkg4instituts.download.UniversalMediaServer</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://download.fosshub.com/Protected/expiretime=1501000089;badurl=aHR0cDovL3d3dy5mb3NzaHViLmNvbS9Vbml2ZXJzYWwtTWVkaWEtU2VydmVyLmh0bWw=/5e74e9551d39bf3382809da1a1c839b0f217a058530ab6bd40d8e3110a5f69e0/Universal-Media-Server/UMS-6.7.2.dmg</string>
+		<key>NAME</key>
+		<string>Universal Media Server</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>%DOWNLOAD_URL%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+	</array>
+</dict>
+</plist>
