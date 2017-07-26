@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v1.0.5 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of muCommander.</string>
+	<key>Identifier</key>
+	<string>com.github.autopkg4instituts.download.muCommander</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://github-production-release-asset-2e65be.s3.amazonaws.com/16462032/608e55c4-4bd1-11e7-980f-3c34e73dce14?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20170726%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20170726T090553Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=26a3aaa16a42d62ca74c6f137b48cd56f2a4b868dccdebeb7328bb92bd53f3dd&amp;X-Amz-SignedHeaders=host&amp;actor_id=30401783&amp;response-content-disposition=attachment%3B%20filename%3Dmucommander-0.9.2.dmg&amp;response-content-type=application%2Foctet-stream</string>
+		<key>NAME</key>
+		<string>muCommander</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>%DOWNLOAD_URL%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+	</array>
+</dict>
+</plist>
