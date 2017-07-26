@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v1.0.5 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of Rocket.Chat+.</string>
+	<key>Identifier</key>
+	<string>com.github.autopkg4instituts.download.Rocket.Chat+</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://github-production-release-asset-2e65be.s3.amazonaws.com/38767563/8d54d7c4-3b30-11e7-98d5-c154a02c0145?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20170726%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20170726T093851Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=f75699969be9a4863d6d0030e25f201df68f4e6a115b0c9cb70e74545794ba0b&amp;X-Amz-SignedHeaders=host&amp;actor_id=30401783&amp;response-content-disposition=attachment%3B%20filename%3Drocketchat-2.8.0.dmg&amp;response-content-type=application%2Foctet-stream</string>
+		<key>NAME</key>
+		<string>Rocket.Chat+</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>%DOWNLOAD_URL%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%pathname%/Rocket.Chat+.app</string>
+				<key>requirement</key>
+				<string>identifier "chat.rocket" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = S6UPZG7ZR3</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_plist_path</key>
+				<string>%pathname%/Rocket.Chat+.app/Contents/Info.plist</string>
+				<key>plist_version_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<key>Processor</key>
+			<string>Versioner</string>
+		</dict>
+	</array>
+</dict>
+</plist>
