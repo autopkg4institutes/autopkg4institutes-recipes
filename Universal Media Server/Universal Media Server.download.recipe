@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://download.fosshub.com/Protected/expiretime=1501000089;badurl=aHR0cDovL3d3dy5mb3NzaHViLmNvbS9Vbml2ZXJzYWwtTWVkaWEtU2VydmVyLmh0bWw=/5e74e9551d39bf3382809da1a1c839b0f217a058530ab6bd40d8e3110a5f69e0/Universal-Media-Server/UMS-6.7.2.dmg</string>
+		<string>https://download.fosshub.com/Protected/expiretime=1501082997;badurl=aHR0cDovL3d3dy5mb3NzaHViLmNvbS9Vbml2ZXJzYWwtTWVkaWEtU2VydmVyLmh0bWw=/f4556c15de39d513bd00b4a285565528f41445b77d57885a320b8d13c44148ec/Universal-Media-Server/UMS-6.7.2.dmg</string>
 		<key>NAME</key>
 		<string>Universal Media Server</string>
 	</dict>
