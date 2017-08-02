@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://github-production-release-asset-2e65be.s3.amazonaws.com/14648981/c6c6c032-e624-11e6-93a7-e8c73f579d06?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20170802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20170802T113203Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=bc69479ffc1025d522ba2b7d59e1657621b2450c394645708b8e4564bff1a4a3&amp;X-Amz-SignedHeaders=host&amp;actor_id=30401783&amp;response-content-disposition=attachment%3B%20filename%3Dspark_2_8_3.dmg&amp;response-content-type=application%2Foctet-stream</string>
+		<string>https://github-production-release-asset-2e65be.s3.amazonaws.com/14648981/c6c6c032-e624-11e6-93a7-e8c73f579d06?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20170801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20170801T155206Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=b3296e3b9b56ed8613694a818366140e98803607531ebd1fbc500ad7f1c64656&amp;X-Amz-SignedHeaders=host&amp;actor_id=0&amp;response-content-disposition=attachment%3B%20filename%3Dspark_2_8_3.dmg&amp;response-content-type=application%2Foctet-stream</string>
 		<key>NAME</key>
 		<string>Spark</string>
 	</dict>
