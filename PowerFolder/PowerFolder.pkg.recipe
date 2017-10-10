@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of PowerFolder and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4instituts.pkg.PowerFolder</string>
+	<string>autopkg4institutes.pkg.PowerFolder</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
@@ -18,7 +18,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg4instituts.download.PowerFolder</string>
+	<string>autopkg4institutes.download.PowerFolder</string>
 	<key>Process</key>
 	<array>
 		<dict>

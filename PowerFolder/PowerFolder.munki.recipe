@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of PowerFolder and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4instituts.munki.PowerFolder</string>
+	<string>autopkg4institutes.munki.PowerFolder</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -21,7 +21,7 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Sync files, folders, remote storage, backup and private file sharing.</string>
+			<string> </string>
 			<key>developer</key>
 			<string>PowerFolder</string>
 			<key>display_name</key>
@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg4instituts.download.PowerFolder</string>
+	<string>autopkg4institutes.download.PowerFolder</string>
 	<key>Process</key>
 	<array>
 		<dict>

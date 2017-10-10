@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of PowerFolder.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4instituts.download.PowerFolder</string>
+	<string>autopkg4institutes.download.PowerFolder</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
