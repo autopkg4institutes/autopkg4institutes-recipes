@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Linphone and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4instituts.pkg.Linphone</string>
+	<string>autopkg4institutes.pkg.Linphone</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
@@ -18,7 +18,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg4instituts.download.Linphone</string>
+	<string>autopkg4institutes.download.Linphone</string>
 	<key>Process</key>
 	<array>
 		<dict>
