@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Mauve.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4instituts.download.Mauve</string>
+	<string>autopkg4institutes.download.Mauve</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
