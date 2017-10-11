@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of UltraEdit.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4instituts.download.UltraEdit</string>
+	<string>autopkg4institutes.download.UltraEdit</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
