@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Universal Media Server and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4instituts.munki.UniversalMediaServer</string>
+	<string>autopkg4institutes.munki.UniversalMediaServer</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -21,7 +21,7 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>DLNA-compliant UPnP media server.</string>
+			<string> </string>
 			<key>developer</key>
 			<string></string>
 			<key>display_name</key>
@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg4instituts.download.UniversalMediaServer</string>
+	<string>autopkg4institutes.download.UniversalMediaServer</string>
 	<key>Process</key>
 	<array>
 		<dict>

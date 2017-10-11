@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Installs the latest version of Universal Media Server.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4instituts.install.UniversalMediaServer</string>
+	<string>autopkg4institutes.install.UniversalMediaServer</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg4instituts.download.UniversalMediaServer</string>
+	<string>autopkg4institutes.download.UniversalMediaServer</string>
 	<key>Process</key>
 	<array>
 		<dict>

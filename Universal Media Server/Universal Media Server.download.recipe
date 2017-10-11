@@ -7,11 +7,11 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Universal Media Server.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4instituts.download.UniversalMediaServer</string>
+	<string>autopkg4institutes.download.UniversalMediaServer</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://download.fosshub.com/Protected/expiretime=1501082997;badurl=aHR0cDovL3d3dy5mb3NzaHViLmNvbS9Vbml2ZXJzYWwtTWVkaWEtU2VydmVyLmh0bWw=/f4556c15de39d513bd00b4a285565528f41445b77d57885a320b8d13c44148ec/Universal-Media-Server/UMS-6.7.2.dmg</string>
+		<string>https://download.fosshub.com/Protected/expiretime=1507729057;badurl=aHR0cDovL3d3dy5mb3NzaHViLmNvbS9Vbml2ZXJzYWwtTWVkaWEtU2VydmVyLmh0bWw=/3f23e82d55446970df9114258b476df67404d0bc13ccf033596b7c8e5739e4e0/Universal-Media-Server/UMS-6.7.4.dmg</string>
 		<key>NAME</key>
 		<string>Universal Media Server</string>
 	</dict>
