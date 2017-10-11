@@ -7,11 +7,11 @@
 	<key>Description</key>
 	<string>Downloads the latest version of SeaMonkey.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4instituts.download.SeaMonkey</string>
+	<string>autopkg4institutes.download.SeaMonkey</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>http://download.cdn.mozilla.net/pub/seamonkey/releases/2.46/mac/de/SeaMonkey%202.46.dmg</string>
+		<string>https://ftp.mozilla.org/pub/seamonkey/releases/2.48/mac/de/SeaMonkey%202.48.dmg</string>
 		<key>NAME</key>
 		<string>SeaMonkey</string>
 	</dict>

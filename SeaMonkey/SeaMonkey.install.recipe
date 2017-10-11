@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Installs the latest version of SeaMonkey.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4instituts.install.SeaMonkey</string>
+	<string>autopkg4institutes.install.SeaMonkey</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg4instituts.download.SeaMonkey</string>
+	<string>autopkg4institutes.download.SeaMonkey</string>
 	<key>Process</key>
 	<array>
 		<dict>
