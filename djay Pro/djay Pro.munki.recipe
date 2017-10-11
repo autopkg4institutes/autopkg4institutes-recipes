@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of djay Pro and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg4instituts.munki.djayPro</string>
+	<string>autopkg4institutes.munki.djayPro</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -21,7 +21,7 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Transform your Mac into a full-fledged DJ system (was djay).</string>
+			<string> </string>
 			<key>developer</key>
 			<string>algoriddim GmbH</string>
 			<key>display_name</key>
@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg4instituts.download.djayPro</string>
+	<string>autopkg4institutes.download.djayPro</string>
 	<key>Process</key>
 	<array>
 		<dict>
