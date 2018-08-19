@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>APP_DESTINATION</key>
-		<string>/Applications/Utilities</string>
+		<string>/Applications/Util</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>global/apps/Onyx</string>
 		<key>NAME</key>
