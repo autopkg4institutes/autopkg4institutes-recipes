@@ -5,15 +5,17 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.5 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of OnyX and imports it into Munki.</string>
+	<string>Downloads the latest Onyx client for macOS 10.13 and installs it into a Munki Repo.</string>
 	<key>Identifier</key>
 	<string>com.github.autopkg4instituts.munki.OnyX</string>
 	<key>Input</key>
 	<dict>
+		<key>APP_DESTINATION</key>
+		<string>/Applications/Utilities</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/%NAME%</string>
+		<string>global/apps/Onyx</string>
 		<key>NAME</key>
-		<string>OnyX</string>
+		<string>OnyX13</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -23,9 +25,9 @@
 			<key>description</key>
 			<string> </string>
 			<key>developer</key>
-			<string>Joel BARRIERE</string>
+			<string>Titanium</string>
 			<key>display_name</key>
-			<string>OnyX</string>
+			<string>Onyx for macOS 10.13</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -46,6 +48,8 @@
 				<key>repo_subdirectory</key>
 				<string>%MUNKI_REPO_SUBDIR%</string>
 			</dict>
+			<key>Comment</key>
+			<string>This processor imports the final pkg into the location specified in the INPUT string at top of recipe.</string>
 			<key>Processor</key>
 			<string>MunkiImporter</string>
 		</dict>
