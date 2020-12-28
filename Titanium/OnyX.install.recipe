@@ -5,9 +5,9 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.1.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of OnyX and creates a package.</string>
+	<string>Installs the latest version of OnyX.</string>
 	<key>Identifier</key>
-	<string>autopkg4institutes.pkg.OnyX</string>
+	<string>autopkg4institutes.install.OnyX</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -20,8 +20,22 @@
 	<key>Process</key>
 	<array>
 		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%pathname%</string>
+				<key>items_to_copy</key>
+				<array>
+					<dict>
+						<key>destination_path</key>
+						<string>/Applications</string>
+						<key>source_item</key>
+						<string>OnyX.app</string>
+					</dict>
+				</array>
+			</dict>
 			<key>Processor</key>
-			<string>AppPkgCreator</string>
+			<string>InstallFromDMG</string>
 		</dict>
 	</array>
 </dict>
